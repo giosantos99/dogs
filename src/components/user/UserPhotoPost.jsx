@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 import styles from "./css/user-photo-post.module.css";
 
-import useForm from "../../Hooks/useForm";
+import useForm from "../../hooks/useForm";
 import useFetch from "../../hooks/useFetch";
 
 import { PHOTO_POST } from "../../api";
